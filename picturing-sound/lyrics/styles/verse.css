@@ -1,0 +1,285 @@
+/*font*/
+
+@import url('https://fonts.googleapis.com/css?family=Gaegu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*html, body {
+    height: 80%;
+}*/
+
+body {
+    font-family: Gaegu;
+    color: #7199e8;
+    background: rgb(0,97,192,1);
+    /*padding-top: 25%;*/
+    margin-top: -1px;
+    font-size: 14px;
+}
+
+p {
+  position:absolute;
+  z-index:99;
+  text-align: center;
+  line-height: 3em;
+  font-size: 1em;
+  max-width: 300px;
+  margin-top: -50px;
+}
+
+#sky {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: transparent;
+}
+
+#sunset {
+  width: 220px;
+  height: 200px;
+  position: relative;
+  margin-top:100px;
+  margin-left:140px;
+  
+  background-color: #ffdd94;
+  /*z-index=9999;*/
+}
+
+#lost {
+
+}
+
+section#darker {
+  min-height: 5000px;
+  min-width: 5000px;
+  background: linear-gradient(to bottom, transparent 0%, #004385 25%, black 100%);
+}
+
+p.always {
+  /*text-align: left;*/
+  /*position:fixed;*/
+  left: 260px;
+  width: 600px;
+  margin-top:100px;
+
+}
+p.when {
+  /*text-align: left;*/
+  /*position:fixed;*/
+  left: 340px;
+  width: 600px;
+  
+}
+
+p.i {
+  /*text-align: left;*/
+  /*position:fixed;*/
+  margin-top:-120px;
+  left: 840px;
+  width: 600px;
+  
+}
+
+p.back {
+  /*text-align: left;*/
+  /*position:fixed;*/
+  /*margin-top:600px;*/
+  margin-top:300px;
+  left: 1420px;
+  width: 600px;
+  
+}
+
+p.know {
+  /*text-align: left;*/
+  /*position:fixed;*/
+  /*margin-top:600px;*/
+  margin-top:970px;
+  left: 2300px;
+  width: 600px;
+  
+}
+
+p.thought {
+  /*text-align: left;*/
+  /*position:fixed;*/
+  /*margin-top:600px;*/
+  margin-top:1070px;
+  left: 2400px;
+  width: 800px;
+  
+}
+
+p.sometimes {
+  /*text-align: left;*/
+  /*position:fixed;*/
+  /*margin-top:600px;*/
+  margin-top:1570px;
+  left: 2800px;
+  width: 800px;
+  
+}
+
+p.shows {
+  /*text-align: left;*/
+  /*position:fixed;*/
+  /*margin-top:600px;*/
+  margin-top:1850px;
+  left: 3600px;
+  width: 800px;
+}
+
+p.and {
+  /*text-align: left;*/
+  /*position:fixed;*/
+  /*margin-top:600px;*/
+  margin-top:2320px;
+  left: 3700px;
+  width: 800px;
+  
+}
+
+p.feels {
+  margin-left:3340px;
+  margin-top: 2560px;
+  width:160px;
+}
+
+p.but {
+  margin-left:3240px;
+  margin-top: 3360px;
+  width:160px;
+}
+p.come {
+  margin-left:3240px;
+  margin-top: 3460px;
+  width:160px;
+}
+p.the {
+  margin-left:3240px;
+  margin-top: 4100px;
+  width:160px;
+}
+
+img {
+  position:absolute;
+}
+
+/*first scene*/
+.one img {
+  /*text-align: left;*/
+  /*position:absolute;*/
+  max-width: 600px;
+  z-index: 99;
+  opacity:1;
+}
+
+/*line*/
+.two img {
+  /*text-align: left;*/
+  max-width:600px;
+  margin-left:600px;
+  margin-top: -218px;
+}
+
+/*stairs*/
+.three img {
+  /*text-align: left;*/
+  max-width:300px;
+  margin-left:1073px;
+  margin-top: 145px;
+}
+
+/*stairs*/
+.four img {
+  /*text-align: left;*/
+  height:300px;
+  margin-left:1173px;
+  margin-top: 65px;
+}
+
+/*stairs 2.0*/
+.five img {
+  /*text-align: left;*/
+  width:200px;
+  margin-left:1373px;
+  margin-top: 455px;
+}
+
+
+/*swim*/
+.six img {
+  /*text-align: left;*/
+  width:300px;
+  margin-left:1673px;
+  margin-top: 565px;
+}
+
+/*swim*/
+.hallway img {
+  /*text-align: left;*/
+  width:1060px;
+  margin-left:1273px;
+  margin-top: 1065px;
+}
+
+/*swim*/
+.kitchen img {
+  /*text-align: left;*/
+  width:1260px;
+  margin-left:2773px;
+  margin-top: 1665px;
+}
+
+.bad img {
+  /*text-align: left;*/
+  width:400px;
+  margin-left:3633px;
+  margin-top: 1960px;
+}
+
+.bad2 img {
+  /*text-align: left;*/
+  width:400px;
+  margin-left:3263px;
+  margin-top: 2323px;
+}
+
+.lost img {
+  width:900px;
+  margin-left:2840px;
+  margin-top: 2460px;
+}
+
+/*.plug {
+  position: absolute;
+  width:200px;
+  margin-bottom: 0px;
+  z-index: 99999;
+  background-image: url(img/openplug.png);
+}*/
+
+.inactiveplug img {
+  max-width:200px;
+  margin-left:3240px;
+  margin-top: 3800px;
+  /*z-index: 99999;*/
+  /*background-image: url(img/openplug.png);*/
+}
+
+.inactiveplug:hover {
+  opacity:0.0;
+
+}
+
+.activeplug img {
+  max-width:200px;
+  margin-left:3240px;
+  margin-top: 3800px;
+  /*z-index: 99999;*/
+  /*background-image: url(img/openplug.png);*/
+}
+

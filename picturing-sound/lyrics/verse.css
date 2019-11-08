@@ -1,0 +1,64 @@
+/*font*/
+
+/*@import url('https://fonts.googleapis.com/css?family=Gaegu&display=swap');*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*html, body {
+    height: 80%;
+}*/
+
+body {
+    /*font-family: Gaegu;*/
+    color: #7199e8;
+    background: transparent;
+    /*padding-top: 25%;*/
+    margin-top: -1px;
+    font-size: 14px;
+}
+
+p {
+  z-index:9999;
+  text-align: center;
+  line-height: 3em;
+  font-size: 1em;
+  max-width: 900px
+}
+
+#sky {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+
+#sunset {
+  width: 400px;
+  height: 100px;
+  position: relative;
+  background: yellow
+  z-index=9999;
+}
+
+
+.one {
+  /*text-align: left;*/
+  position:fixed;
+  width: 600px;
+  z-index: 99;
+}
+
+.one img {
+  /*text-align: left;*/
+  position:fixed;
+  max-width: 600px;
+  z-index: 99;
+}
+
+.two img {
+  /*text-align: left;*/
+  width: 650px;
+}
