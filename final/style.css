@@ -1,0 +1,90 @@
+/*font*/
+
+/*@import url('https://fonts.googleapis.com/css?family=Gaegu&display=swap');*/
+body {
+  background-color: #f2f2f2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+	margin-left:350px;
+}
+
+.one {
+	display: block;
+}
+
+#two {
+  display: none;
+  margin-top: -500px;
+  padding-left: 410px;
+  z-index:999;
+  opacity:1;
+}
+
+#three {
+  display: none;
+  padding-left: 1200px;
+}
+
+.space {
+  padding-left: 2400px;
+}
+/*html, body {
+    height: 80%;
+}*/
+
+/* body {
+
+    color: #7199e8;
+    background: transparent;
+
+    margin-top: -1px;
+    font-size: 14px;
+}
+
+p {
+  z-index:9999;
+  text-align: center;
+  line-height: 3em;
+  font-size: 1em;
+  max-width: 900px
+}
+
+#sky {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+#sunset {
+  width: 400px;
+  height: 100px;
+  position: relative;
+  background: yellow
+  z-index:9999;
+}
+
+
+.one {
+
+  position:fixed;
+  width: 600px;
+  z-index: 99;
+}
+
+.one img {
+
+  position:fixed;
+  max-width: 600px;
+  z-index: 99;
+}
+
+.two img {
+
+  width: 650px;
+} */
